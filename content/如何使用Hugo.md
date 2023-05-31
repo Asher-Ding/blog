@@ -71,6 +71,7 @@ github 选择Action 新建Action 然后搜索hugo，会得到一个
 ```# Sample workflow for building and deploying a Hugo site to GitHub Pages```
 然后保存
 
+新建分支 gh-pages
 
 
 
