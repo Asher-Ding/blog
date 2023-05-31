@@ -73,6 +73,8 @@ github 选择Action 新建Action 然后搜索hugo，会得到一个
 
 新建分支 gh-pages
 
+设置gp-pages为主分支
+
 
 
 
