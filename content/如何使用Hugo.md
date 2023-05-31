@@ -7,6 +7,11 @@ draft: true
 ### 安装hugo
 首先，去Hugo官网https://gohugo.io/下载适合您操作系统的最新版本。
 
+brew install hugo
+
+hugo version 
+
+
 然后，将Hugo解压缩到您想要的位置。例如，您可以将其解压缩到/usr/local/bin/，这将使Hugo可用于整个系统。
 
 接下来，打开命令行终端并运行以下命令来检查Hugo是否已成功安装：
@@ -54,6 +59,19 @@ hugo
 ├── static
 └── themes
 ```
+
+
+## 配置github仓库
+
+配置域名
+
+## 配置CI/CD
+
+github 选择Action 新建Action 然后搜索hugo，会得到一个
+```# Sample workflow for building and deploying a Hugo site to GitHub Pages```
+然后保存
+
+
 
 
 
