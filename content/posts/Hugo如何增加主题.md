@@ -1,7 +1,7 @@
 ---
 title: "Hugo如何增加主题"
 date: 2023-06-01T15:11:38+08:00
-draft: true
+draft: false
 ---
 
 1. 增加主题

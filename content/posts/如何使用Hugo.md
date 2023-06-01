@@ -75,6 +75,11 @@ github 选择Action 新建Action 然后搜索hugo，会得到一个
 
 设置github-pages为主分支
 
+## 配置域名
+Configuring a custom domain for your GitHub Pages site
+[github docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
+
+
 ### 常见问题
 
 #### failed with exit code 128
@@ -91,7 +96,10 @@ https://docs.github.com/zh/authentication/keeping-your-account-and-data-secure/c
 
 2. 返回仓库创建 Actions secrets and variables
 
+3. 修改yaml里面的token
+```bash
+github_token: ${{ secrets.ACCESS_TOKEN }}
+```
 
-
-
+4. action 执行完毕
 
