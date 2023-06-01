@@ -1,7 +1,7 @@
 ---
 title: "如何使用Hugo"
 date: 2023-05-30T16:11:22+08:00
-draft: true
+draft: false
 ---
 
 ### 安装hugo
@@ -74,6 +74,23 @@ github 选择Action 新建Action 然后搜索hugo，会得到一个
 新建分支 github-pages
 
 设置github-pages为主分支
+
+### 常见问题
+
+#### failed with exit code 128
+> The process '/usr/bin/git' failed with exit code 128.
+
+[参考](https://blog.csdn.net/nxg0916/article/details/129063959)
+
+1. 创建个人访问令牌
+https://docs.github.com/zh/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
+使用 GitHub API 或命令行时，可使用 Personal access token 替代密码向 GitHub 进行身份验证。
+ 
+创建完成后，复制Token
+
+2. 返回仓库创建 Actions secrets and variables
+
 
 
 

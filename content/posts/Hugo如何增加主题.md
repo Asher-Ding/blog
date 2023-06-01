@@ -9,6 +9,13 @@ draft: true
 ```bash
 git submodule add -f https://github.com/panr/hugo-theme-terminal.git themes/terminal
 ```
+2. 更新主题
+```bash
+cd themes/poison
+
+git pull
+
+```
 2. 使用主题，修改配置文件
 ```bash
 # config.toml
