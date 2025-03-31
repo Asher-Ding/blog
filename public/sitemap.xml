@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/dify/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/%E5%A6%82%E4%BD%95%E9%83%A8%E7%BD%B2dify/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo/</loc>
+    <lastmod>2023-05-30T16:11:22+08:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/series/</loc>
+  </url>
+</urlset>

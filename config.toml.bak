@@ -1,4 +1,0 @@
-theme = "terminal"
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'Blog Ing'

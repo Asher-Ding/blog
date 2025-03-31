@@ -1,40 +1,16 @@
 baseURL = "/"
 languageCode = "zh-cn"
-theme = "poison"
-paginate = 10
+theme = "PaperMod"
+pagination.pagerSize = 10
 pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
 
-menu = [
-        # Dict keys:
-            # Name:         The name to display on the menu.
-            # URL:          The directory relative to the content directory.
-            # HasChildren:  If the directory's files should be listed.  Default is true.
-            # Limit:        If the files should be listed, how many should be shown.
-
-        # SINGLE PAGE
-        # Note that you must put your markdown file 
-        # inside of a directory with the same name.
-
-        # Example:
-        # ... /content/about/about.md
-        {Name = "关于", URL = "/about/", HasChildren = false},
-        
-        # ... /content/foo/_index.md
-        # {Name = "Foo", URL = "/foo/", HasChildren = false},
-
-        # LIST
-        # This example has a subheading of "Recent"
-        # and will display up to 5 items.
-
-        # Example:
-        # ... /content/posts/introducing-poison.md
-        {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
-
-        {Name = "发布", URL = "/posts1/", Pre = "Recent", HasChildren = true, Limit = 5},
-
-        # Example of a list without a subheading or limit.
-        {Name = "Projects", URL = "/projects/"},
-]
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    pre = "Recent"
+    hasChildren = true
+    limit = 5
 
 [params]
     brand = "Asher"                      # name of your site - appears in the sidebar
@@ -49,17 +25,6 @@ menu = [
                                           # e.g. /assets/images/site/og-image.png becomes images/site/og-image.png
     # publisher_icon = ""                 # path to publisher icon - defaults to favicon, used in schema
     # favicon = ""                        # path to favicon
-
-    # MENU PLACEHOLDER
-    # Menu dict keys:
-        # Name:         The name to display on the menu.
-        # URL:          The directory relative to the content directory.
-        # HasChildren:  If the directory's files should be listed.  Default is true.
-        # Limit:        If the files should be listed, how many should be shown.
-    menu = [
-        {Name = "About", URL = "/about/", HasChildren = false},
-        {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
-    ]
 
     # Links to your socials.  Comment or delete any you don't need/use. 
     github_url = "https://github.com/Asher-Ding"
