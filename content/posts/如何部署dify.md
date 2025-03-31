@@ -1,3 +1,9 @@
+---
+title: "如何部署dify"
+date: 2025-03-31
+draft: false
+tags: ["dify"]
+---
 # Demo 版 Dify 安装指南
 
 ## 环境
